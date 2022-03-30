@@ -106,3 +106,59 @@ p{
 #contact-details ul li a:hover{
     color: #006BA6;
 }
+
+section{
+    border-top: 1px solid #DEDEDE;
+    padding: 20px 0 0;
+    display: flex;
+}
+
+section:first-child{
+    border-top: 0;
+}
+
+section:last-child{
+    padding: 20px 0 10px;
+}
+
+.section-title {
+    float: left;
+    width: 25%;
+    margin-left: 15px;
+}
+
+.section-content {
+    float: right;
+    width: 70%;
+}
+
+.section-title h1 {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #006BA6;
+}
+
+.section-title h2 {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    margin-bottom: -2px;
+}
+
+.sub-details {
+    font-size: 0.8em;
+    font-style: italic;
+    margin-bottom: 3px
+  }
+  
+  .key-skills {
+    list-style-type: none;
+    column-count: 3;
+    margin-bottom: 20px;
+    font-size: 1em;
+    color: #444
+  }
+  
+  .key-skills ul li {
+    margin-bottom: 3px;
+  }
